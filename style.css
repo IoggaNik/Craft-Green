@@ -9,7 +9,7 @@
 }
 
 body {
-    height: 5000px;
+    height: 8000px;
 }
 
 .header {
@@ -454,4 +454,137 @@ menu section:nth-child(4) {
     width: 490px;
     color: #525252;
     line-height: 24px;
+}
+
+menu section:nth-child(5) {
+    margin-top: 160px;
+}
+
+.head-text-section-5 {
+    text-align: center;
+    color: #043A3A;
+    font-size: 67px;
+    line-height: 72px;
+}
+
+.head-text-section-5 span {
+    color: #2FB95D;
+}
+
+.desc-section-5 {
+    color: #525252;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+menu section:nth-child(5) div {
+    display: flex;
+    justify-content: center;
+}
+
+menu section:nth-child(5) div ul {
+    width: 972px;
+    margin-top: 108px;
+}
+
+.package-1 {
+    width: 466px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.package-text-block {
+    background-color: #2FB95D;
+    border-radius: 24px 24px 0px 0px;
+    width: 384px;
+    height: 56px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame-package-1 {
+    background-color: #043A3A;
+    height: 640px;
+    width: 466px;
+    border-radius: 24px;
+    position: relative;
+}
+
+.frame-package-1 article {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-bottom: 1px solid #fff;
+    padding: 40px;
+    width: 466px;
+    color: #fff;
+}
+
+.frame-package-1 article h2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.frame-package-1 article h1 {
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.frame-package-1 aside {
+    width: 466px;
+    height: 404px;
+    position: absolute;
+    bottom: 0;
+}
+
+.frame-package-1 aside {
+    width: 386px;
+    color: #fff;
+}
+
+.frame-package-1 aside ul {
+    position: absolute;
+    top: -70px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.frame-package-1 aside ul li {
+    width: 386px;
+}
+
+.frame-package-1 aside ul li * {
+    font-family: Mulish;
+}
+
+.frame-package-1 aside ul li div {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.frame-package-1 aside ul li hr {
+    width: 386px;
+}
+
+.purchase-package-1 {
+    color: #043A3A;
+    border: none;
+    position: absolute;
+    bottom: 35px;
+    width: 386px;
+    padding: 24px 40px;
+    border-radius: 100px;
+    font-size: 21px;
+    font-weight: 600;
+    cursor: pointer;
 }
