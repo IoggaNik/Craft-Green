@@ -483,9 +483,12 @@ menu section:nth-child(5) div {
     justify-content: center;
 }
 
-menu section:nth-child(5) div ul {
-    width: 972px;
+.ul-packages {
+    width: 1050px;
     margin-top: 108px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .package-1 {
@@ -514,7 +517,7 @@ menu section:nth-child(5) div ul {
     position: relative;
 }
 
-.frame-package-1 article {
+.article-package {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -525,13 +528,13 @@ menu section:nth-child(5) div ul {
     color: #fff;
 }
 
-.frame-package-1 article h2 {
+.package-plan-text {
     font-weight: 600;
     font-size: 28px;
     line-height: 32px;
 }
 
-.frame-package-1 article h1 {
+.price-package {
     font-size: 67px;
     font-weight: 600;
     line-height: 72px;
@@ -551,29 +554,28 @@ menu section:nth-child(5) div ul {
 
 .frame-package-1 aside ul {
     position: absolute;
-    top: -70px;
+    top: 40px;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.frame-package-1 aside ul li {
+.frame-package-1 aside ul li,
+.list-check {
     width: 386px;
 }
 
-.frame-package-1 aside ul li * {
+.frame-package-1 aside *,
+.frame-package-2 aside * {
     font-family: Mulish;
 }
 
-.frame-package-1 aside ul li div {
+.frame-package-1 aside ul li div, 
+.frame-package-2 aside ul li div {
     display: inline-flex;
     align-items: center;
     gap: 16px;
     margin-bottom: 16px;
-}
-
-.frame-package-1 aside ul li hr {
-    width: 386px;
 }
 
 .purchase-package-1 {
@@ -581,6 +583,59 @@ menu section:nth-child(5) div ul {
     border: none;
     position: absolute;
     bottom: 35px;
+    width: 386px;
+    padding: 24px 40px;
+    border-radius: 100px;
+    font-size: 21px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.package-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.package-text-block-2 {
+    background-color: #043A3A;
+    width: 384px;
+    height: 56px;
+    border-radius: 24px 24px 0px 0px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame-package-2 {
+    height: 696px;
+    width: 466px;
+    background-color: #2FB95D;
+    border-radius: 24px;
+    position: relative;
+}
+
+.list-check {
+    color: #fff;
+}
+
+.frame-package-2 aside {
+    position: absolute;
+    top: 280px;
+}
+
+.frame-package-2 aside ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.purchase-package-2 {
+    color: #2FB95D;
+    border: none;
+    position: absolute;
+    bottom: -100px;
     width: 386px;
     padding: 24px 40px;
     border-radius: 100px;
