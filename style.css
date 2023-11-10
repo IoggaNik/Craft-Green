@@ -801,6 +801,11 @@ menu section:last-child form {
     gap: 40px;
 }
 
+.p-valid-input-1 {
+    position: absolute;
+    top: -20px;
+}
+
 .head-text-section-10 {
     color: #043A3A;
     font-size: 67px;
@@ -854,5 +859,148 @@ textarea {
 }
 
 .btn-form-section-10:hover {
+    background-color: #43db76;
+}
+
+.footer {
+    background-color: #043A3A;
+    padding: 96px 98px;
+    height: 400px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer h1 {
+    font-size: 38px;
+    color: #fff;
+}
+
+.footer h1 span {
+    color: #2FB95D;
+}
+
+.footer-desc-aside {
+    color: #fff;
+    font-family: Mulish;
+    margin-top: 16px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.footer-links li:first-child a svg path{
+    stroke: #fff;
+}
+
+.footer-links li {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer-links li a {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-links li:hover {
+    background-color: #fff;
+}
+
+.footer-links li:hover a svg path {
+    stroke: #2FB95D;
+}
+
+.footer article {
+    display: flex;
+    gap: 45px;
+}
+
+.footer article ul:first-child {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.footer article ul:first-child h2,
+.footer article ul:last-child h2 {
+    font-size: 21px;
+}
+
+.footer article ul:first-child div {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer article ul:first-child a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer article ul:last-child {
+    color: #fff;
+}
+
+.footer article ul:last-child div {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer article ul:last-child div li {
+    display: flex;
+    gap: 8px;
+}
+
+.footer article ul:last-child div li:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+.footer form {
+    width: 432px;
+}
+
+.footer form h2 {
+    color: #fff;
+    font-size: 21px;
+}
+
+.footer form div {
+    margin-top: 40px;
+    display: flex;
+}
+
+.email-footer {
+    padding: 24px;
+    border-radius: 16px 0px 0px 16px;
+    outline: none;
+    border: none;
+    width: 280px;
+}
+
+.submit-email-footer {
+    padding: 24px;
+    border: none;
+    background-color: #2FB95D;
+    color: #fff;
+    font-size: 21px;
+    border-radius: 0px 16px 16px 0px;
+    cursor: pointer;
+}
+
+.submit-email-footer:hover {
     background-color: #43db76;
 }
